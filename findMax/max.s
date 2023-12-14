@@ -32,9 +32,11 @@ movl data_items(,%edi,4), %eax
 # in other words move the value at data_items[1] to eax
 cmpl %ebx, %eax # compare values
 jle start_loop # jump to loop beginning if the new
+# jle = jump if less than
 # one isn’t bigger
 movl %eax, %ebx # move the value as the largest
 jmp start_loop # jump to loop beginning
+# jmp = jump
 loop_exit:
 # %ebx is the status code for the exit system call
 # and it already has the maximum number
