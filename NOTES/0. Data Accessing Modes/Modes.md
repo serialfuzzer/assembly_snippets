@@ -9,14 +9,19 @@
 
     **disp**:
         An optional displacement value added to the address calculated using the base and index. You can use a constant value or another register for this.
+
     **base**:
          A register containing the base address of the data structure (e.g., the starting address of an array).
+
     **index**:
          A register containing the index value used to access specific elements within the structure.
+
     **scale**:
          An optional value (1, 2, 4, or 8) that multiplies the index value before adding it to the base address. This allows for efficient access to elements with larger byte sizes.
+
     **dest**:
          The destination register where the data will be loaded.
+         
 
 5. **Indirect addressing mode**: In this addressing mode, the data is contained in a memory address that is stored in a register. If eax contained the value 4, in indirect addressing mode, the value would be loaded from the memory address 4 
 
