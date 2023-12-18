@@ -11,6 +11,5 @@ _start:
 
     # Your code continues here...
 
-    # For example, you can print the value in EBX (4 in this case)
     movl $1, %eax            # System call number for write
     int $0x80                # Trigger the kernel interrupt
