@@ -25,3 +25,6 @@ My goal is to push something at least once a week for 9 Weeks.
 # Additional information
 
 Most contents in this repository is taken from the book **Barlett - Programming from the Ground up**.
+
+# How to compile?
+`$ as source.s -o source.o --32 && ld -m elf_i386 source.o -o source.bin`
