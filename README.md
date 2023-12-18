@@ -21,3 +21,7 @@ My goal is to push something at least once a week for 9 Weeks.
 
 - SNIPPETS:
     Contains code for Assembly programs. You may read the comments to understand.
+
+# Additional information
+
+Most contents in this repository is taken from the book **Barlett - Programming from the Ground up**.
